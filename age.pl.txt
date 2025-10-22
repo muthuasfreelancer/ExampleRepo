@@ -1,0 +1,18 @@
+# chatbot.py
+
+print("Hi there! I'm your friendly chatbot 🤖")
+name = input("What's your name? ")
+print(f"Nice to meet you, {name}!")
+
+mood = input("How are you feeling today? (good/bad/okay) ").lower()
+
+if mood == "good":
+    print("That's awesome! Keep smiling 😊")
+elif mood == "bad":
+    print("I'm sorry to hear that. Want to talk about it?")
+elif mood == "okay":
+    print("Just okay? Let's make today better together!")
+else:
+    print("Hmm, I didn't quite get that, but I'm here for you!")
+
+print("Thanks for chatting with me, see you soon!")
